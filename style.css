@@ -3,10 +3,6 @@ html {
     background-color: #a1a1a1;
 }
 
-body {
-    margin: 0px;
-}
-
 .palette {
     position: absolute;
     top: 30%;
@@ -28,8 +24,7 @@ body {
 
 .control {
     height: 56px;
-    width: 100%;
-    
+    width: 100%;    
 }
 
 .menu {
@@ -64,6 +59,26 @@ body {
     color: #ffffff91;
 }
 
-.like-circle {
-    fill: white;
+.like-block {
+    float: left;
+    position: relative;
+    left: 320px;
+    top: -30px;
+    border-radius: 50%;
+    background-color: #FE4482;
+    height: 60px;
+    width: 60px;
 }
+
+.like {
+    float: left;
+    height: 50%;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+
+.info {
+    background-color: white;
+}
+
